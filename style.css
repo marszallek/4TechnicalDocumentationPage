@@ -1,0 +1,112 @@
+body
+{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(29, 29, 29);
+    color: rgb(196, 196, 196);
+}
+header
+{
+    font-size: 34px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: aliceblue;
+}
+#navbar
+{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    border-right: 1px solid white;
+    font-size: 20px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    margin-left: -40px;
+}
+#navbar li
+{
+    list-style: none;
+}
+#main-doc
+{
+    position: absolute;
+    margin-left: 325px;
+    margin-right: 100px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+code
+{
+    font-family: monospace;
+    font-size: 16px;
+    color: rgb(142, 80, 199);
+}
+footer
+{
+    position: fixed;
+    left: 10px;
+    bottom: 0;
+}
+a
+{
+    text-decoration: none;
+}
+a:active
+{
+    color: rgb(82, 150, 150);
+}
+a:visited
+{
+    color: rgb(102, 148, 148);
+}
+@media screen and (max-width: 700px){
+header
+{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: aliceblue;
+}
+#navbar
+{   
+    position: absolute;
+    font-size: 12px;
+    height: 270px;
+    align-items: center;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 0px;
+}
+#main-doc
+{
+    position: absolute;
+    margin-top: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    max-width: 95%;
+}
+.nav-link
+{
+    display: inline-flex;
+    border: 1px outset white;
+    line-height: 20px;
+    height: 20px;
+    letter-spacing: 4px;
+}
+#js
+{
+    text-align: center;
+    line-height: 20px
+}
+code
+{
+    font-size: 12px;
+}
+}
